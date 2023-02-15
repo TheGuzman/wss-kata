@@ -1,0 +1,21 @@
+{
+  "name": "wss_exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "test": "jest --config --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ws": "^8.5.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "ws": "^8.12.1"
+  }
+}
